@@ -15,8 +15,11 @@ Lb = 0.8
 # th
 Ath = 5
 
-# specific impulse
+# hybrid rocket specific impulse
 Isp = 270
+
+# reaction gas controller specific impulse
+R_Isp = 100
 
 # nozzle expansion ratio (E)
 E = 50
