@@ -21,9 +21,9 @@ This repository contains the code for the design and optimization of trajectorie
 
 ### Technical Implementation
 
---> Built with Pyomo, a Python-based optimization modeling framework.
+  - Built with Pyomo, a Python-based optimization modeling framework.
 
---> Solved using IPOPT, a nonlinear programming solver.
+  - Solved using IPOPT, a nonlinear programming solver.
 
 ---
 
@@ -41,6 +41,6 @@ This repository contains the code for the design and optimization of trajectorie
 
 ### References
 
-[1] Abraham, M. A., Gardi, A., & Kara, O. (2025). Multi-Objective Trajectory Optimization of Mars Hybrid Rockets with In Situ Propellants. Acta Astronautica. https://doi.org/10.1016/j.actaastro.2025.04.036
-[2] Kim, I. Y., & De Weck, O. L. (2005). Adaptive weighted sum method for multiobjective optimization: a new method for Pareto front generation. Structural and Multidisciplinary Optimization, 31(2), 105–116. https://doi.org/10.1007/s00158-005-0557-6
-[3] Schlossman, R., Williams, K., Kozlowski, D., & Parish, J. J. (2021). Open-Source, Object-Oriented, Multi-Phase pseudospectral optimization using Pyomo. AIAA SCITECH 2022 Forum. https://doi.org/10.2514/6.2021-1951
+[1] Abraham, M. A., Gardi, A., & Kara, O. (2025). Multi-Objective Trajectory Optimization of Mars Hybrid Rockets with In Situ Propellants. Acta Astronautica. https://doi.org/10.1016/j.actaastro.2025.04.036 <br>
+[2] Kim, I. Y., & De Weck, O. L. (2005). Adaptive weighted sum method for multiobjective optimization: a new method for Pareto front generation. Structural and Multidisciplinary Optimization, 31(2), 105–116. https://doi.org/10.1007/s00158-005-0557-6 <br>
+[3] Schlossman, R., Williams, K., Kozlowski, D., & Parish, J. J. (2021). Open-Source, Object-Oriented, Multi-Phase pseudospectral optimization using Pyomo. AIAA SCITECH 2022 Forum. https://doi.org/10.2514/6.2021-1951 <br>
