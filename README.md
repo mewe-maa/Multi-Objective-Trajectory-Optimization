@@ -1,2 +1,34 @@
-# Multi-Objective Trajectory Optimization of MAV
- Explores the design and optimization of trajectories for Mars Ascent Vehicles (MAVs). The study frames the problem as a Multi-Objective Trajectory Optimization (MOTO) challenge, subject to an optimal control approach that respects various dynamic and geometric constraints. The proposed solution is implemented using Pyomo in conjunction with Interior Point OPTimizer (IPOPT), a nonlinear programming solver. The algorithm incorporates, six degrees of freedom (6-DoF) flight dynamics models, as well as aerodynamic and propulsion data. The 6-DoF equations are formulated using quaternions to avoid mathematical singularities and physical issues, such as gimbal lock. The MOTO problem addresses objectives that include maximizing range while minimizing fuel consumption. A set of optimal results spread across a Pareto front is then obtained. Beyond trajectory predictions, this work provides a foundational approach for further multidisciplinary optimization research in the context of MAVs and ballistic hoppers.
+# 🚀 Multi-Objective Trajectory Optimization
+
+This repository contains the code for the design and optimization of trajectories specifically for Mars Ascent Vehicles (MAVs), using a Multi-Objective Trajectory Optimization (MOTO) framework. The problem is formulated as an optimal control problem, incorporating a range of dynamic and geometric constraints. An initial Pareto front is computed using a direct weighted product scalarization approach with uniform weights. To improve resolution and better capture trade-offs between objectives, an adaptive bi-objective weighted product method is implemented based on the refinement procedure described in [2]. The trajectory optimization and discretization are implemented using Pyomo [1], while nonlinear programs are solved using IPOPT. This repository also serves as a foundation for more advanced Multidisciplinary Design Optimization (MDO) research related to planetary ascent and autonomous mission planning.
+
+Key Features:
+
+    --> Six Degrees of Freedom (6-DoF) Dynamics: The MAV flight is modeled using full 6-DoF equations of motion.
+
+    --> Quaternion and Euler Representations: Both are implemented. Due to numerical feasibility and constraint sensitivity, only one can be activated at a time by commenting the other out.
+
+    --> Multi-Objective Optimization: Simultaneously maximizes downrange distance and final payload mass (or equivalently minimizes fuel consumption).
+
+    --> Pareto Front Generation: Captures trade-offs between objectives using scalarization techniques.
+
+    --> Adaptive Weighted Product Method: Refines the Pareto front adaptively for better solution diversity and resolution.
+
+    --> Mars-Relevant Physics: Includes aerodynamic and propulsion models tailored for Mars ascent conditions.
+
+Technical Implementation:
+
+    --> Built with Pyomo, a Python-based optimization modeling framework.
+
+    --> Solved using IPOPT, a nonlinear programming solver.
+
+Results and Visualizations
+
+Pareto Front
+
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/5a953d8f-b606-4172-8524-c29f813e2384" />
+
+Sample Optimized Trajectories
+
+<img width="922" height="707" alt="image" src="https://github.com/user-attachments/assets/541dce2c-32b3-4cde-9b88-8530612796d3" />
+
