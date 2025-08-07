@@ -3,17 +3,17 @@ This repository contains the code for the design and optimization of trajectorie
 
 ### Key Features:
 
-  --?  Six Degrees of Freedom (6-DoF) Dynamics: The MAV flight is modeled using full 6-DoF equations of motion.
+  - Six Degrees of Freedom (6-DoF) Dynamics: The MAV flight is modeled using full 6-DoF equations of motion.
 
-  --> Quaternion and Euler Representations: Both are implemented. Due to numerical feasibility and constraint sensitivity, only one can be activated at a time by commenting the other out.
+  - Quaternion and Euler Representations: Both are implemented. Due to numerical feasibility and constraint sensitivity, only one can be activated at a time by commenting the other out.
 
-  --> Multi-Objective Optimization: Simultaneously maximizes downrange distance and final payload mass (or equivalently minimizes fuel consumption).
+  - Multi-Objective Optimization: Simultaneously maximizes downrange distance and final payload mass (or equivalently minimizes fuel consumption).
 
-  --> Pareto Front Generation: Captures trade-offs between objectives using scalarization techniques.
+  - Pareto Front Generation: Captures trade-offs between objectives using scalarization techniques.
 
-  --> Adaptive Weighted Product Method: Refines the Pareto front adaptively for better solution diversity and resolution.
+  - Adaptive Weighted Product Method: Refines the Pareto front adaptively for better solution diversity and resolution.
 
-  --> Mars-Relevant Physics: Includes aerodynamic and propulsion models tailored for Mars ascent conditions.
+  - Mars-Relevant Physics: Includes aerodynamic and propulsion models tailored for Mars ascent conditions.
 
 ---
 
@@ -29,9 +29,9 @@ This repository contains the code for the design and optimization of trajectorie
 
 **Pareto Front:**
 
-<img width="500" height="790" alt="image" src="https://github.com/user-attachments/assets/5a953d8f-b606-4172-8524-c29f813e2384" />  
+<img width="500" height="790" alt="image" src="https://github.com/user-attachments/assets/5a953d8f-b606-4172-8524-c29f813e2384" /> <br>
 
-**Sample Optimized Trajectories**
+**Sample Optimized Trajectories:**
 
 <img width="500" height="707" alt="image" src="https://github.com/user-attachments/assets/541dce2c-32b3-4cde-9b88-8530612796d3" />
 
