@@ -3,7 +3,7 @@ This repository contains the code for the design and optimization of trajectorie
 
 ---
 
-### Key Features:
+### Key Features
 
   - Six Degrees of Freedom (6-DoF) Dynamics: The MAV flight is modeled using full 6-DoF equations of motion.
 
