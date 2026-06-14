@@ -31,11 +31,11 @@ This repository contains the code for the design and optimization of trajectorie
 
 **Pareto Front:**
 
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5a953d8f-b606-4172-8524-c29f813e2384" /> <br>
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/5a953d8f-b606-4172-8524-c29f813e2384" /> <br>
 
 **Sample Optimized Trajectories:**
 
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/541dce2c-32b3-4cde-9b88-8530612796d3" />
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/541dce2c-32b3-4cde-9b88-8530612796d3" />
 
 ---
 
